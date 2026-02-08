@@ -34,7 +34,7 @@ Skills follow the [Agent Skills](https://github.com/vercel-labs/agent-skills) fo
 The fastest way to install these skills is using npx:
 
 ```bash
-npx skill add damianwysocki/python-best-practices
+npx skills add damianwysocki/python-best-practices
 ```
 
 This installs all four skills to your `~/.claude/skills/` directory.
