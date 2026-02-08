@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "organization": "Python Best Practices",
+  "date": "February 2026",
+  "abstract": "Comprehensive Django and Django REST Framework best practices guide for AI agents and LLMs. Contains 23 rules across 5 categories, prioritized by impact from critical (service layer separation, query optimization) to medium (testing patterns). Each rule includes detailed explanations, real-world Django examples comparing incorrect vs. correct implementations, and guidance for building maintainable Django applications.",
+  "references": [
+    "https://docs.djangoproject.com/en/5.0/",
+    "https://www.django-rest-framework.org",
+    "https://drf-spectacular.readthedocs.io",
+    "https://django-filter.readthedocs.io",
+    "https://factoryboy.readthedocs.io"
+  ]
+}

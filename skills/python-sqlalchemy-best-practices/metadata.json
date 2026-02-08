@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0",
+  "organization": "Python Best Practices",
+  "date": "February 2026",
+  "abstract": "Comprehensive SQLAlchemy 2.0 best practices guide for AI agents and LLMs. Contains 19 rules across 5 categories, prioritized by impact from critical (session management, typed models) to low (naming conventions). Each rule includes detailed explanations, real-world SQLAlchemy 2.0 examples comparing incorrect vs. correct implementations, and guidance for building type-safe database layers.",
+  "references": [
+    "https://docs.sqlalchemy.org/en/20/",
+    "https://alembic.sqlalchemy.org",
+    "https://docs.sqlalchemy.org/en/20/orm/extensions/asyncio.html",
+    "https://docs.sqlalchemy.org/en/20/orm/mapped_attributes.html"
+  ]
+}

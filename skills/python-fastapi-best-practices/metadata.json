@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "organization": "Python Best Practices",
+  "date": "February 2026",
+  "abstract": "Comprehensive FastAPI best practices guide for AI agents and LLMs. Contains 28 rules across 7 categories, prioritized by impact from critical (OpenAPI documentation, dependency injection) to low (streaming responses). Each rule includes detailed explanations, real-world FastAPI examples comparing incorrect vs. correct implementations, and specific guidance for building production-grade async APIs.",
+  "references": [
+    "https://fastapi.tiangolo.com",
+    "https://docs.pydantic.dev/latest/",
+    "https://docs.python.org/3/library/asyncio.html",
+    "https://www.starlette.io",
+    "https://swagger.io/specification/"
+  ]
+}
