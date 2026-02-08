@@ -24,15 +24,35 @@ Skills follow the [Agent Skills](https://github.com/vercel-labs/agent-skills) fo
 
 ## Installation
 
+### Requirements
+
+- **Claude Code CLI** with agent skills support (requires `skills.sh`)
+- **npm/npx** installed for skill package management
+
+### Recommended: Install via npx
+
+The fastest way to install these skills is using npx:
+
 ```bash
-# Clone and copy skills to your project
+npx skill add damianwysocki/python-best-practices
+```
+
+This installs all four skills to your `~/.claude/skills/` directory.
+
+### Alternative: Manual Installation
+
+If you prefer to manually copy skills to your project:
+
+```bash
 cp -r skills/python-clean-architecture ~/.claude/skills/
 cp -r skills/python-fastapi-best-practices ~/.claude/skills/
 cp -r skills/python-django-best-practices ~/.claude/skills/
 cp -r skills/python-sqlalchemy-best-practices ~/.claude/skills/
 ```
 
-Or add the `AGENTS.md` file from any skill directly to your project's context.
+### As Context
+
+You can also add the `AGENTS.md` file from any skill directly to your project's context without installing as a skill.
 
 ## Structure
 
